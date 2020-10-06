@@ -13,7 +13,7 @@ class SplashScreen : AppCompatActivity() {
 
         val handler = Handler()
         handler.postDelayed({
-            startActivity(Intent(this, ForgotPassword::class.java))
+            startActivity(Intent(this, HomeScreen::class.java))
             finish()
         }, 2000)
     }

@@ -19,6 +19,20 @@
         <item
             android:id="@+id/nav_BecomeMember"
             android:title="@string/menu_BecomeMember"/>
-
+        <item
+            android:id="@+id/nav_Statistics"
+            android:title="@string/menu_Stats"/>
+        <item
+            android:id="@+id/nav_Stories"
+            android:title="@string/menu_Stories"/>
+        <item
+            android:id="@+id/nav_New_Story"
+            android:title="@string/menu_New_Story"/>
+        <item
+            android:id="@+id/nav_Settings"
+            android:title="@string/action_settings"/>
+        <item
+            android:id="@+id/nav_Help"
+            android:title="@string/menu_Help"/>
     </group>
 </menu>

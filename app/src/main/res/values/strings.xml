@@ -14,5 +14,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_Interest">Interest</string>
-    <string name="menu_BecomeMember">Become Member</string>
+    <string name="menu_BecomeMember">Become a Member</string>
+    <string name="menu_Stats">Stats</string>
+    <string name="menu_Stories">Stories</string>
+    <string name="menu_New_Story">New Story</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="menu_Help">Help</string>
+
 </resources>
