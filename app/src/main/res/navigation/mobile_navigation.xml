@@ -11,8 +11,6 @@
         android:name="com.example.studychart.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-
-
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.studychart.ui.gallery.GalleryFragment"
@@ -58,4 +56,10 @@
         android:name="com.example.studychart.nav_Help"
         android:label="Help"
         tools:layout="@layout/fragment_nav__help" />
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.studychart.SplashScreen"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+
 </navigation>

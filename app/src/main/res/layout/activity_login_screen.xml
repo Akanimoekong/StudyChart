@@ -79,17 +79,16 @@
         android:background="@drawable/roundedge"
         android:drawableEnd="@drawable/ic_arrow_right"
         android:padding="5dp"
-        android:text="Login"
+        android:text="login"
+        android:textColor="@color/colorkindaBlack"
         android:textAllCaps="false"
-        android:textColor="@color/colorWhite"
         android:textSize="22sp"
-        android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="@id/password_Layout"
         app:layout_constraintRight_toRightOf="@id/password_Layout"
         app:layout_constraintTop_toBottomOf="@id/password_Layout"/>
 
     <TextView
-        android:id="@+id/forgot_passwrd"
+        android:id="@+id/forgot_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -108,7 +107,6 @@
         android:textAlignment="center"
         android:textColor="@color/colorWhite"
         android:layout_marginBottom="30dp"
-        android:textStyle="bold"
         android:text="Already have an account?  Signup"
        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

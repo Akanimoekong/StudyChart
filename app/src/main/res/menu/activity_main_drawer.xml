@@ -30,7 +30,7 @@
             android:title="@string/menu_New_Story"/>
         <item
             android:id="@+id/nav_Settings"
-            android:title="@string/action_settings"/>
+            android:title="@string/menu_Settings"/>
         <item
             android:id="@+id/nav_Help"
             android:title="@string/menu_Help"/>

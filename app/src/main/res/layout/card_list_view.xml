@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <androidx.cardview.widget.CardView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:elevation="20dp"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:scaleType="centerInside"
+                android:background="@drawable/circleview"
+                app:srcCompat="@drawable/smiling" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/profilePic"
+                app:layout_constraintStart_toEndOf="@id/profilePic"
+                android:text="@string/Profile_name"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/article_pics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profilePic"
+                app:srcCompat="@drawable/startup" />
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/article_pics"
+                app:layout_constraintStart_toStartOf="@id/article_pics"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorkindaBlack"
+                android:text="How To Choose A Branding Agency For \nA Startup"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="79dp"
+                android:text="@string/article_text"
+                app:layout_constraintStart_toStartOf="@id/topic"
+                app:layout_constraintTop_toBottomOf="@id/topic" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,7 +6,7 @@
     <string name="nav_header_title">View Profile</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_Podcast">Podcast</string>
@@ -20,5 +20,7 @@
     <string name="menu_New_Story">New Story</string>
     <string name="menu_Settings">Settings</string>
     <string name="menu_Help">Help</string>
+    <string name="Profile_name">Akanimo Ekong</string>
+    <string name="article_text">Q: What Amount Does Marking Cost? \nQ: What\'s Remembered For A Marking Bundle?\nQ: What Are The Principle Topographical Areas Of The Best Organizations?</string>
 
 </resources>

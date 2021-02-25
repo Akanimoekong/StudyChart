@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005344621049",
+    "project_id": "studychart-def43",
+    "storage_bucket": "studychart-def43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005344621049:android:99d9f844e42bc02e8d7d28",
+        "android_client_info": {
+          "package_name": "com.example.studychart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005344621049-c314kprrbd495dkebdvlbhbi8mtjaoh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf9L7kzYT8qsW1qg9uyaBc-0knwh8MDgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005344621049-c314kprrbd495dkebdvlbhbi8mtjaoh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

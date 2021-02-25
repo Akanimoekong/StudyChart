@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/dim_10"
+        app:contentPadding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="4dp">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:id="@+id/author_image"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/circleview"
+               android:padding="5dp"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               android:src="@drawable/image_in_card"/>
+
+           <TextView
+               android:id="@+id/author_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               app:layout_constraintLeft_toRightOf="@id/author_image"
+               app:layout_constraintTop_toTopOf="@id/author_image"
+               app:layout_constraintBottom_toBottomOf="@id/author_image"
+               android:text="Akanimo Ekong"/>
+
+           <ImageView
+               android:id="@+id/post_image"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:layout_constraintTop_toBottomOf="@id/author_image"
+               android:src="@drawable/postimage"
+               />
+
+           <TextView
+               android:id="@+id/post_title"
+               android:layout_width="320dp"
+               android:layout_height="wrap_content"
+               app:layout_constraintTop_toBottomOf="@id/post_image"
+               app:layout_constraintLeft_toLeftOf="@id/post_image"
+               android:layout_marginTop="5dp"
+               android:layout_marginStart="5dp"
+               android:textColor="@color/colorkindaBlack"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:text="How To Choose A Branding Agency For A Startup"
+               />
+
+           <ImageView
+               android:id="@+id/favorite"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:layout_marginLeft="5dp"
+               app:layout_constraintLeft_toRightOf="@id/post_title"
+               app:layout_constraintTop_toTopOf="@id/post_title"
+               app:srcCompat="@drawable/ic_baseline_favorite_24"/>
+           
+           <TextView
+               android:id="@+id/post"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" 
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               app:layout_constraintTop_toBottomOf="@id/post_title"
+               android:text="Ispum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum loremIspum lorem"/>
+
+
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
